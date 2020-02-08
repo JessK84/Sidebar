@@ -1,0 +1,47 @@
+html, body {
+  margin: 0px auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: #BCAAA4;
+  position: relative;
+  height: 100%; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #9C27B0;
+  color: white;
+  margin: 0px auto;
+  padding: 0px;
+  z-index: 30; }
+
+aside {
+  margin: 0px auto;
+  padding: 50px;
+  background-color: #FFEB3B;
+  height: 600px;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  transform: translateX(-410px);
+  transition: .8s; }
+  aside a {
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 60px; }
+
+li {
+  list-style: none;
+  padding: 10px; }
+
+a {
+  position: absolute;
+  top: 30px;
+  right: 50px; }
+
+#abrir:target {
+  transform: translateX(-35px); }
+
+/*# sourceMappingURL=main.css.map */
